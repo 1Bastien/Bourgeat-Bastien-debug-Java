@@ -6,16 +6,16 @@ import java.util.Map;
 
 public class WriteSymptomDataToFile implements ISymptomWriter {
 
-	@Override
-	public void writeSymptoms(Map<String, Integer> symptoms) {
+    @Override
+    public void writeSymptoms(Map<String, Integer> symptoms) {
 
-	    try (FileWriter writer = new FileWriter("result.out")) {
+        try (FileWriter writer = new FileWriter("result.out")) {
             for (Map.Entry<String, Integer> entry : symptoms.entrySet()) {
                 writer.write(entry.getKey() + ":" + entry.getValue() + "\n");
             }
-            
-	    } catch (IOException e) {
+
+        } catch (IOException e) {
             e.printStackTrace();
         }
-	}
+    }
 }
