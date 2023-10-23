@@ -10,14 +10,9 @@ import java.util.Map;
  * This class writes symptom data to a text file where each symptom is listed
  * along with its occurrence count.
  */
+
 public class WriteSymptomDataToFile implements ISymptomWriter {
 
-    /**
-     * Writes symptom data to a file.
-     * 
-     * @param symptoms A map where the keys represent symptom names and the values
-     *                 represent the occurrences of each symptom.
-     */
     @Override
     public void writeSymptoms(Map<String, Integer> symptoms) {
 

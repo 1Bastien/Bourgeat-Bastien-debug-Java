@@ -3,6 +3,14 @@ package com.hemebiotech.analytics;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The main class for the symptom data analytics application.
+ * 
+ * This class contains the entry point of the application, which reads symptom
+ * data from a source, performs analysis, and writes the results to a
+ * destination.
+ */
+
 public class Main {
 
     public static void main(String[] args) throws Exception {
