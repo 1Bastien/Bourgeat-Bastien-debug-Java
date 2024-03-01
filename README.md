@@ -11,3 +11,24 @@ Ce projet a été réalisé dans le cadre d'un projet étudiant.
 ## But du projet
 
 Le but est de corriger et d'améliorer l'application java existant qui lit les données de symptômes à partir d'un fichier texte, compte toutes les occurrences de chaque symptôme et génère un nouveau fichier texte avec les symptômes répertoriés par ordre alphabétique et le nombre d'occurrences pour chacun.
+
+---
+
+## Prérequis
+
+- Java
+
+## Installation
+
+```bash
+git clone https://github.com/1Bastien/Bourgeat-Bastien-debug-Java
+```
+```
+cd Bourgeat-Bastien-debug-Java/Project02Eclipse/src
+```
+```
+javac com/hemebiotech/analytics/Main.java
+```
+```
+java com.hemebiotech.analytics.Main
+```
